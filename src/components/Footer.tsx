@@ -18,10 +18,9 @@ const Footer = () => {
                 <form className='py-4'>
                     <input 
                         className='bg-[#F2F3F4] p-4 w-full rounded' 
-                        placeholder='Type your email' 
+                        placeholder='Type your email' required type='email'
                     />
-                    <button className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#4A74EA] text-white font-medium'>Subscribe Now</button>
-
+                    <button disabled className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#4A74EA] text-white font-medium'>Subscribe Now</button>
                 </form>
 
             </div>
@@ -29,9 +28,9 @@ const Footer = () => {
             <div>
                 <h3 className='text-2xl font-bold'>Explore</h3>
                 <ul className='py-6 text-[#6D737A]'>
-                    <li className='py-2'>Rent a property</li>
-                    <li className='py-2'>Buy a property</li>
-                    <li className='py-2'>Sell a property</li>
+                    <li className='py-2'><a href="#!">Rent a property</a></li>
+                    <li className='py-2'><a href="#!">Buy a property</a></li>
+                    <li className='py-2'><a href="#!">Sell a property</a></li>
 
                 </ul>
             </div>
@@ -39,9 +38,9 @@ const Footer = () => {
             <div>
                 <h3 className='text-2xl font-bold'>About</h3>
                 <ul className='py-6 text-[#6D737A]'>
-                    <li className='py-2'>Our Story</li>
-                    <li className='py-2'>Benefits</li>
-                    <li className='py-2'>Testimonials</li>
+                    <li className='py-2'><a href="#!">Our Story</a></li>
+                    <li className='py-2'><a href="#!">Benefits</a></li>
+                    <li className='py-2'><a href="#!">Testimonials</a></li>
 
                 </ul>
             </div>
@@ -49,9 +48,9 @@ const Footer = () => {
             <div>
                 <h3 className='text-2xl font-bold'>Get Help</h3>
                 <ul className='py-6 text-[#6D737A]'>
-                    <li className='py-2'>Download App</li>
-                    <li className='py-2'>Contact</li>
-                    <li className='py-2'>FAQs</li>
+                    <li className='py-2'><a href="#!">Download App</a></li>
+                    <li className='py-2'><a href="#!">Contact</a></li>
+                    <li className='py-2'><a href="#!">FAQs</a></li>
 
                 </ul>
             </div>
@@ -63,8 +62,8 @@ const Footer = () => {
         <div className='md:max-w-[1480px] mx-auto max-w-[600px] flex sm:flex-row flex-col justify-between items-center'>
          <h3 className='py-2 text-[#363A3D]'>@2023 Micasa. All rights reserved.</h3>
          <div className='flex sm:flex-row flex-col justify-between items-center'>
-            <h3 className='py-2 text-[#363A3D]'>Privacy Policy</h3>
-            <h3 className='pl-4 py-2 text-[#363A3D]'>Terms and Conditions</h3>
+            <h3 className='py-2 text-[#363A3D]'><a href="#!">Privacy Policy</a></h3>
+            <h3 className='pl-4 py-2 text-[#363A3D]'><a href="#!">Terms and Conditions</a></h3>
             <div className='flex gap-4 py-2 pl-4'>
                 <a href="https://www.facebook.com/micasalistings/" target='_blank' className='p-4 bg-[#dde5fb] rounded-xl'>
                     <FaFacebookF size={15} style={{color:'#4A74EA'}} />

@@ -54,17 +54,17 @@ const AboutUs = () => {
                             <div className='mt-2 flex flex-row justify-between items-center'>
                                 <p className="text-gray-500 capitalize ">ceo / agent</p>
                                 <div className="flex mt-3 -mx-2">
-                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                                    <a href="#!" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiFacebook size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
+                                    <a href="#!" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiTwitter size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
+                                    <a href="#!" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiLinkedin size={18} />
                                         </div>  
@@ -77,21 +77,21 @@ const AboutUs = () => {
                     <div className="flex flex-col border rounded-sm border-gray-300">
                         <img className="object-cover w-full rounded-sm aspect-square" src={teamJane.src} alt="Ben" />
                         <div className='p-4 sm:p-4'>
-                            <h1 className="text-2xl font-semibold text-gray-700 capitalize">Jane Doe</h1>
+                            <h1 className="text-2xl font-semibold text-gray-700 capitalize">Sophia</h1>
                             <div className='mt-2 flex flex-row justify-between items-center'>
                                 <p className="text-gray-500 capitalize ">agent</p>
                                 <div className="flex mt-3 -mx-2">
-                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                                    <a href="#!" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiFacebook size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
+                                    <a href="#!" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiTwitter size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
+                                    <a href="#!" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiLinkedin size={18} />
                                         </div>  

@@ -8,7 +8,7 @@ import heroImg from "./estate.png";
 import howItWorks from './hiw.png'
 import teamBen from './team/ben.jpg'
 import teamJane from './team/jane.jpg'
-import teamVictor from './team/victor.png'
+import teamVictor from './team/victor.jpg'
 
 export {
   hamburgerMenu,

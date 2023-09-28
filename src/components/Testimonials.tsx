@@ -18,20 +18,20 @@ const Testimonials = () => {
                             <div className="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
                                 <div className="relative z-[1] block rounded-lg px-6 py-12 backdrop-blur-[25px] bg-[hsla(0,0%,5%,0.7)] shadow-black/20 md:px-12 lg:-mr-14">
                                     <h2 className="mb-2 text-3xl font-bold text-[#4A74EA]">
-                                        Anna Doe
+                                        Anna Mukwati
                                     </h2>
-                                    <p className="mb-4 font-semibold text-neutral-200">Graphic designer</p>
+                                    <p className="mb-4 font-semibold text-neutral-200">Fashion Designer</p>
                                     <p className="mb-6 text-neutral-300">
-                                        Nunc tincidunt vulputate elit. Mauris varius purus malesuada
-                                        neque iaculis malesuada. Aenean gravida magna orci, non
-                                        efficitur est porta id. Donec magna diam.
+                                        Micasa team made selling our house a smooth and pleasant experience. 
+                                        They knew exactly what to do at every step of the process 
+                                        and gave us excellent guidance along the way. Specifically our realtor 
+                                        Sharon was extremely helpful and responsive. 
                                     </p>
                                     <p className="mb-6 text-neutral-300">
-                                        Quis, explicabo deserunt quasi
-                                        assumenda ea maiores nulla, et dolor saepe praesentium natus
-                                        error reiciendis voluptas iste. Aperiam rerum culpa
-                                        accusantium, ducimus deserunt aliquid alias vitae quasi
-                                        corporis placeat vel maiores explicabo commodi!
+                                        We could not have been happier working with her! 
+                                        She remained confident when we encountered challenges and always kept us on target. 
+                                        I would highly recommend Micasa Group to anyone selling or buying a house. 
+                                        They are the ultimate professionals!
                                     </p>
                                     <ul className="flex justify-center lg:justify-start">
                                         <li>
@@ -73,7 +73,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="sm:block hidden">
-                                <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/080.jpg"
+                                <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/084.jpg"
                                 className="lg:rotate-[6deg] w-full rounded-lg shadow-lg shadow-black/20" alt="image" />
                             </div>
                         </div>
@@ -84,20 +84,21 @@ const Testimonials = () => {
                             <div className="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
                                 <div className="relative z-[1] block rounded-lg px-6 py-12 backdrop-blur-[25px] bg-[hsla(0,0%,5%,0.7)] shadow-black/20 md:px-12 lg:-mr-14">
                                     <h2 className="mb-2 text-3xl font-bold text-[#4A74EA]">
-                                        Anna Doe
+                                        Tanaka Maturuse
                                     </h2>
-                                    <p className="mb-4 font-semibold text-neutral-200">Graphic designer</p>
+                                    <p className="mb-4 font-semibold text-neutral-200">Electrical Engineer</p>
                                     <p className="mb-6 text-neutral-300">
-                                        Nunc tincidunt vulputate elit. Mauris varius purus malesuada
-                                        neque iaculis malesuada. Aenean gravida magna orci, non
-                                        efficitur est porta id. Donec magna diam.
+                                        I typically do not write a review for anything or anyone, but the outstanding service
+                                        I received from Micasa calls for an exception. 
+                                        They put quality over quantity when it came to helping my family and I secure a home. 
+                                        
+                                        
                                     </p>
                                     <p className="mb-6 text-neutral-300">
-                                        Quis, explicabo deserunt quasi
-                                        assumenda ea maiores nulla, et dolor saepe praesentium natus
-                                        error reiciendis voluptas iste. Aperiam rerum culpa
-                                        accusantium, ducimus deserunt aliquid alias vitae quasi
-                                        corporis placeat vel maiores explicabo commodi!
+                                    What I mean by quality is we were not just a “number” to them, they genuinely cared to 
+                                        get to know us and familiarize themselves with what we were comfortable with when purchasing a home.
+                                        They are 100% professional at all times and patient with our asks. Thanks again Micasa!
+                                       
                                     </p>
                                     <ul className="flex justify-center lg:justify-start">
                                         <li>
@@ -139,7 +140,7 @@ const Testimonials = () => {
                                 </div>
                             </div>
                             <div className="sm:block hidden">
-                                <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/080.jpg"
+                                <img src="https://thumbs.dreamstime.com/b/african-thumb-up-happy-electrical-engineer-giving-43845018.jpg"
                                 className="lg:rotate-[6deg] w-full rounded-lg shadow-lg shadow-black/20" alt="image" />
                             </div>
                         </div>

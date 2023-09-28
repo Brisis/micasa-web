@@ -34,7 +34,7 @@ const HowItWorks = () => {
                             <div className='px-3'>
                                 <h1 className='text-2xl font-semibold'>Download and Register</h1>
                                 <p className='text-[#6D737A] sm:leading-0 leading-[36px]'>You can download our app from 
-                                <span className='text-[#4A74EA]'><a href=""> PlayStore</a></span>. 
+                                <span className='text-[#4A74EA]'><a href="#!"> PlayStore</a></span>. 
                                 After installing it, you can create an account and login</p>
                             </div>
 

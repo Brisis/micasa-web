@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import {logoHome, lock, hamburgerMenu, close} from '@/../public/assets'
+import Link from 'next/link';
 
 const Navbar = () => {
 
@@ -21,10 +22,11 @@ const Navbar = () => {
             <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4'>
                 
                 {/* <img src={logo.src} width={150}  /> */}
-                <a href='/' className='text-3xl text-[#4A74EA] font-bold flex justify-between'>
+                
+                <Link href={'/'} className='text-3xl text-[#4A74EA] font-bold flex justify-between'>
                     <img src={logoHome.src} className="h-[35px] pr-3" />
                     Micasa
-                </a>
+                </Link>
                 
                 <div className='hidden md:flex items-center navigation'>
                     <ul className='flex gap-4'>
