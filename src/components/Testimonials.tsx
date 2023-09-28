@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className='w-full bg-white py-24'>
+    <section id='testimonials' className='w-full bg-white py-24'>
         <div className='md:max-w-[1480px] m-auto px-4 md:px-0'>
             <div className="relative flex py-5 items-center">
                 <div className="flex-grow border-t border-gray-400"></div>
@@ -10,8 +10,8 @@ const Testimonials = () => {
                 <div className="flex-grow border-t border-gray-400"></div>
             </div>
                    
-            <div className="my-24" >
-                <div className="grid grid-cols-2 gap-12">
+            <div className="mt-24 mb-18" >
+                <div className="grid sm:grid-cols-2 flex-col gap-12">
                         
                     <div className="mx-auto">
                         <div className="grid items-center lg:grid-cols-2">
@@ -72,7 +72,7 @@ const Testimonials = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="md:mb-12 lg:mb-0">
+                            <div className="sm:block hidden">
                                 <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/080.jpg"
                                 className="lg:rotate-[6deg] w-full rounded-lg shadow-lg shadow-black/20" alt="image" />
                             </div>
@@ -138,7 +138,7 @@ const Testimonials = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="md:mb-12 lg:mb-0">
+                            <div className="sm:block hidden">
                                 <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/080.jpg"
                                 className="lg:rotate-[6deg] w-full rounded-lg shadow-lg shadow-black/20" alt="image" />
                             </div>
@@ -148,7 +148,7 @@ const Testimonials = () => {
                 </div>
             </div>    
         </div>
-    </div>
+    </section>
   )
 }
 

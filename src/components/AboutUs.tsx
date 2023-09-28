@@ -6,15 +6,15 @@ import {FiLinkedin} from 'react-icons/fi'
 
 const AboutUs = () => {
   return (
-    <div className='w-full bg-white py-24'>
+    <section id='about' className='w-full bg-white sm:py-24 py-0'>
         <div className='md:max-w-[1480px] m-auto px-4 md:px-0'>
-            <div className="relative flex py-5 items-center">
+            <div className="relative flex sm:py-5 py-24 items-center">
                 <div className="flex-grow border-t border-gray-400"></div>
                 <h1 className='flex-shrink mx-4 md:leading-[72px] text-4xl font-bold'>About Us</h1>
                 <div className="flex-grow border-t border-gray-400"></div>
             </div>
             
-            <h1 className='md:leading-[72px] text-3xl font-bold'>Meet our Team</h1> 
+            <h1 className='md:leading-[72px] sm:pb-0 pb-4 text-3xl font-bold'>Meet our Team</h1> 
             <p className='text-lg text-gray-600'>Our top rated expects ready to assist in your search</p>
 
             <div className="container mx-auto py-8">
@@ -27,17 +27,17 @@ const AboutUs = () => {
                             <div className='mt-2 flex flex-row justify-between items-center'>
                                 <p className="text-gray-500 capitalize ">software engineer</p>
                                 <div className="flex mt-3 -mx-2">
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                                    <a href="https://www.facebook.com/benevolentmudzinganyama/" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiFacebook size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
+                                    <a href="https://www.twitter.com/ibenevolentking" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiTwitter size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
+                                    <a href="https://www.linkedin.com/in/benevolentmudzinganyama/" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiLinkedin size={18} />
                                         </div>  
@@ -54,17 +54,17 @@ const AboutUs = () => {
                             <div className='mt-2 flex flex-row justify-between items-center'>
                                 <p className="text-gray-500 capitalize ">ceo / agent</p>
                                 <div className="flex mt-3 -mx-2">
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiFacebook size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
+                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiTwitter size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
+                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiLinkedin size={18} />
                                         </div>  
@@ -81,17 +81,17 @@ const AboutUs = () => {
                             <div className='mt-2 flex flex-row justify-between items-center'>
                                 <p className="text-gray-500 capitalize ">agent</p>
                                 <div className="flex mt-3 -mx-2">
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiFacebook size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
+                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Twitter">     
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiTwitter size={18} />
                                         </div>  
                                     </a>
-                                    <a href="#" className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
+                                    <a href="#" target='_blank' className="mx-2 text-white transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
                                         <div className='p-2 bg-black rounded-full'>
                                             <FiLinkedin size={18} />
                                         </div>  
@@ -104,7 +104,7 @@ const AboutUs = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

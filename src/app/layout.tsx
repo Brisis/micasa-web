@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="sm:scroll-smooth">
       <link rel="shortcut icon" href={logoHome.src} type="image/x-icon" />
       <body className={inter.className}>{children}</body>
     </html>
