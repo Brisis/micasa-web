@@ -1,12 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Public_Sans } from 'next/font/google'
 import { logoHome } from '@/../public/assets'
-
-const publicSans = Public_Sans({
-  subsets: ['latin'],
-  display: 'swap',
-})
 
 export const metadata: Metadata = {
   title: 'Micasa',
