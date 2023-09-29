@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="sm:scroll-smooth">
       <link rel="shortcut icon" href={logoHome.src} type="image/x-icon" />
-      <body className={publicSans.className}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
