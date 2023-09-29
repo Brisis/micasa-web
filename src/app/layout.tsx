@@ -1,9 +1,12 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Public_Sans } from 'next/font/google'
 import { logoHome } from '@/../public/assets'
 
-const inter = Inter({ subsets: ['latin'] })
+const publicSans = Public_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Micasa',
@@ -18,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="sm:scroll-smooth">
       <link rel="shortcut icon" href={logoHome.src} type="image/x-icon" />
-      <body className={inter.className}>{children}</body>
+      <body className={publicSans.className}>{children}</body>
     </html>
   )
 }

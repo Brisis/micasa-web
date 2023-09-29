@@ -15,7 +15,7 @@ const config: Config = {
       },
       borderRadius: {
         extraLarge: '30rem'
-      }
+      },
     },
   },
   plugins: [],
